@@ -11,3 +11,11 @@ variable "az" {
 variable "vpc_id" {
   description = "vpc id"
 }
+
+variable "map_public_ip_on_launch" {
+  description = "False"
+}
+
+variable "name" {
+  description = "pub_sub"
+}
